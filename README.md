@@ -1,1 +1,1 @@
-# gatsby-honeybadger
+# gatsby-plugin-honeybadger
