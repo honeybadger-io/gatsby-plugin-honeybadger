@@ -1,4 +1,8 @@
-exports.onClientEntry = function(_, pluginParams) {
-  // if (process.env.NODE_ENV === 'production') {}
-  console.log('hello gatsby!', pluginParams)
+const Honeybadger = require('honeybadger-js')
+
+exports.onClientEntry = function(_, { apiKey }) {
+  Honeybadger.configure({
+    apiKey,
+    environment: process.env.NODE_ENV
+  })
 }
