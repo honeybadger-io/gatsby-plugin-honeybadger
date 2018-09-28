@@ -2,11 +2,11 @@
 
 ## Install and Setup
 
-`yarn add gatsby-plugin-honeybadger`
+`yarn add @honeybadger-io/gatsby-plugin-honeybadger`
 
 or
 
-`npm install gatsby-plugin-honeybadger`
+`npm install @honeybadger-io/gatsby-plugin-honeybadger`
 
 Add your API key in the plugin options in `gatsby-config.js`:
 
