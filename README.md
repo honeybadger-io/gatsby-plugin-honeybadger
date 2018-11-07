@@ -1,12 +1,12 @@
 # gatsby-plugin-honeybadger
 
-## Install and Setup
+Gatsby plugin to add [Honeybadger error tracking](https://www.honeybadger.io/for/javascript/?utm_source=github&utm_medium=readme&utm_campaign=gatsby&utm_content=Honeybadger+error+tracking) to your site.
 
-`yarn add @honeybadger-io/gatsby-plugin-honeybadger`
+## Install
 
-or
+`npm install --save @honeybadger-io/gatsby-plugin-honeybadger`
 
-`npm install @honeybadger-io/gatsby-plugin-honeybadger`
+## How to use
 
 Add your API key in the plugin options in `gatsby-config.js`:
 
