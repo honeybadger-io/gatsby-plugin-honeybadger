@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/honeybadger-io/gatsby-plugin-honeybadger.git"
+    "url": "https://github.com/honeybadger-io/gatsby-plugin-honeybadger"
   },
   "keywords": [
     "gatsby",
