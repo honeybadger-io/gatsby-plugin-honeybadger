@@ -152,9 +152,9 @@ har-validator@~5.1.0:
     ajv "^5.3.0"
     har-schema "^2.0.0"
 
-honeybadger-js@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/honeybadger-js/-/honeybadger-js-0.5.5.tgz#9ff59dba5f111e2a896ccd2452bf91ff5cbbf978"
+honeybadger-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/honeybadger-js/-/honeybadger-js-1.0.1.tgz#c5d448c9232ce5af90bbe29dbf92816c7393d0aa"
 
 http-signature@~1.2.0:
   version "1.2.0"
