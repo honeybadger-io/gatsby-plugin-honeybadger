@@ -1,6 +1,6 @@
 const Honeybadger = require('honeybadger-js')
 
-exports.onClientEntry = function(_, { apiKey, revision }) {
+exports.onClientEntry = function(_, { apiKey, revision, environment = process.env.NODE_ENV }) {
   if (!apiKey) {
     console.warn('gatsby-plugin-honeybadger needs an API key to be configured properly {url for documentation}')
     return
@@ -9,6 +9,6 @@ exports.onClientEntry = function(_, { apiKey, revision }) {
   Honeybadger.configure({
     apiKey,
     revision,
-    environment: process.env.NODE_ENV
+    environment
   })
 }
