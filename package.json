@@ -1,7 +1,7 @@
 {
   "name": "@honeybadger-io/gatsby-plugin-honeybadger",
   "description": "Gatsby plugin to add Honeybadger error tracking to your site.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/honeybadger-io/gatsby-plugin-honeybadger.git"
