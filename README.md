@@ -14,12 +14,14 @@ Add your API key in the plugin options in `gatsby-config.js`:
 // gatsby-config.js
 module.exports = {
   plugins: [
-    resolve: `@honeybadger-io/gatsby-plugin-honeybadger`,
-    options: {
-      apiKey: 'YOUR_API_KEY',
-      revision: `${Date.now()}`,
-      assetsUrl: 'https://foobar.com/assets',
-      environment: process.env.NODE_ENV
+    {
+      resolve: `@honeybadger-io/gatsby-plugin-honeybadger`,
+      options: {
+        apiKey: 'YOUR_API_KEY',
+        revision: `${Date.now()}`,
+        assetsUrl: 'https://foobar.com/assets',
+        environment: process.env.NODE_ENV
+      }
     }
   ]
 }
@@ -31,3 +33,10 @@ module.exports = {
 - `[revision]` _(String)_: `gatsby-plugin-honeybadger` uses [`honeybadger-webpack`](https://github.com/honeybadger-io/honeybadger-webpack) to upload source maps to Honeybadger. `options.revision` needs to be unique as it is the identifier that connects your errors to your source maps.
 - `[assetsURL]` _(String)_: The base URL to production assets (scheme://host/path). Used to grab source maps.
 - `[environment]` _(String)_: Current environment. Used to indicate the environment where the error occurred. **Optional**, defaults to `process.env.NODE_ENV`.
+
+## Releasing
+
+To release a new version:
+
+1. `npm version [version]`
+2. `npm publish`
