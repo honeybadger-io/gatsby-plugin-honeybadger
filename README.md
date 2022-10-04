@@ -1,5 +1,7 @@
 # @honeybadger-io/gatsby-plugin-honeybadger
 
+> Note: This repository has been moved to [@honeybadger-io/js](https://github.com/honeybadger-io/honeybadger-js), home to all Honeybadger's JavaScript packages.
+
 Gatsby plugin to add [Honeybadger error tracking](https://www.honeybadger.io/for/javascript/?utm_source=github&utm_medium=readme&utm_campaign=gatsby&utm_content=Honeybadger+error+tracking) to your site.
 
 ## Install
